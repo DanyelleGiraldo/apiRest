@@ -28,15 +28,28 @@ public class City {
     public String getCodecity() {
         return codecity;
     }
+
     public void setCodecity(String codecity) {
         this.codecity = codecity;
     }
+
     public String getNamecity() {
         return namecity;
     }
+
     public void setNamecity(String namecity) {
         this.namecity = namecity;
     }
+
+    public Region getRegion() {
+        return region;
+    }
+
+    public void setRegion(Region region) {
+        this.region = region;
+    }
+
+    
 
     
 

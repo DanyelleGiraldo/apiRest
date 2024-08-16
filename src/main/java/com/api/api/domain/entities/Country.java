@@ -38,6 +38,12 @@ public class Country {
     public void setNamecountry(String namecountry) {
         this.namecountry = namecountry;
     }
-
+    public List<Region> getRegions() {
+        return regions;
+    }
+    public void setRegions(List<Region> regions) {
+        this.regions = regions;
+    }
+    
     
 }
